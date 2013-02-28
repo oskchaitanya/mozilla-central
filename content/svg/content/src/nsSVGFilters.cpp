@@ -2919,6 +2919,7 @@ nsSVGFETileElement::Filter(nsSVGFilterInstance *instance,
   uint8_t* targetData = aTarget->mImage->Data();
   uint32_t stride = aTarget->mImage->Stride();
 
+/*
   // the offset to add to our x/y coordinates (which are relative to the
   // temporary surface data) to get coordinates relative to the origin
   // of the tile
@@ -2934,6 +2935,12 @@ nsSVGFETileElement::Filter(nsSVGFilterInstance *instance,
         }
       }
     }
+  }
+*/
+
+  if (tile.y > surfaceRect.y)
+  {
+
   }
 
   return NS_OK;
