@@ -45,6 +45,9 @@ skip-if(B2G) == dynamic-filtered-foreignObject-01.svg pass.svg # bug 773482
 
 == feTile-1.svg feTile-1-ref.svg
 == feTile-2.svg feTile-2-ref.svg
+== feTile-3.svg feTile-3-ref.svg
+== feTile-4.svg feTile-4-ref.svg
+== feTile-5.svg feTile-5-ref.svg
 
 # no tests for feTurbulence
 
